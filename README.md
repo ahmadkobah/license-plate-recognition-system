@@ -10,7 +10,7 @@ A planned Python project for automatic license plate recognition: finding a vehi
 
 **Early setup stage. No source code has been added yet.**
 
-The repository currently contains only the configuration folder of a PyCharm Python project (`.idea/`). There are no Python modules, models, datasets, tests or dependency files in the repository today. The features described below are planned and do not exist yet.
+The repository currently contains only this README and a `.gitignore`. There are no Python modules, models, datasets, tests or dependency files in the repository today. The features described below are planned and do not exist yet.
 
 ## Planned Approach
 
@@ -27,9 +27,9 @@ The exact methods for each step will be chosen during development.
 
 ## Planned Technology
 
-**Planned.** The project configuration indicates:
+**Planned.**
 
-- Python 3.13 (as set in the PyCharm project files)
+- Python 3.13
 - PyCharm as the development environment
 
 Image processing and recognition libraries are to be decided.
@@ -37,17 +37,11 @@ Image processing and recognition libraries are to be decided.
 ## Repository Contents
 
 ```
-.idea/
-  .gitignore
-  PythonProject.iml
-  misc.xml
-  modules.xml
-  inspectionProfiles/
-    profiles_settings.xml
+.gitignore
 README.md
 ```
 
-All files in `.idea/` are IDE project settings created by PyCharm. They are not part of the application itself.
+IDE settings (`.idea/`) are local to each developer and are excluded by `.gitignore`.
 
 ## Getting Started
 
